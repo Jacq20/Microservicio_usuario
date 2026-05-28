@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.usuario.Microservicio_usuario.DTO.UsuarioDTO;
 import com.usuario.Microservicio_usuario.model.Usuario;
 import com.usuario.Microservicio_usuario.service.UsuarioService;
+import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/usuarios")
